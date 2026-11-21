@@ -1,3 +1,6 @@
+> **English translation** of [VanishCam](https://github.com/Nicovic17/vanish_webcam) by [Nicovic17](https://github.com/Nicovic17).
+> All original work and credit belong to the original author.
+
 ## ☕ Buy me a coffee
 
 If you like this project and want to support it, you can buy me a coffee through [PayPal](https://paypal.me/nicovic17) or [Revolut](https://revolut.me/nicoauriemma).
@@ -70,7 +73,7 @@ local_app\AVVIA_LOCALE.bat --mode itachi
 
 If [OBS Studio](https://obsproject.com/) is installed, the app automatically tries to open **OBS Virtual Camera**. The terminal shows the device name. Use `AVVIA_VIRTUAL.bat` to require a virtual camera. Select **OBS Virtual Camera** in the app that will receive the video. OBS's virtual camera must be stopped while this app is producing its output.
 
-To use the effect in an OBS scene, run `AVVIA_OBS.bat`, add a **Window Capture** source, select **Webcam - Anteprima**, and then start the virtual camera from OBS. Alternatively, use [Unity Capture](https://github.com/schellingb/UnityCapture) as a separate virtual video source:
+To use the effect in an OBS scene, run `AVVIA_OBS.bat`, add a **Window Capture** source, select **Webcam - Preview**, and then start the virtual camera from OBS. Alternatively, use [Unity Capture](https://github.com/schellingb/UnityCapture) as a separate virtual video source:
 
 ```powershell
 local_app\AVVIA_VIRTUAL.bat --virtual-backend unitycapture
